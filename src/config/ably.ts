@@ -1,0 +1,1 @@
+export const ABLY_KEY = import.meta.env.VITE.VITE_ABLY_KEY;
