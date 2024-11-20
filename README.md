@@ -24,6 +24,11 @@ While currently basic, the project lays the groundwork for future enhancements l
 
 https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
 
+Dashboard: 
+
+![image](https://github.com/user-attachments/assets/1541b1b1-0c9d-4414-b47b-d7f656d6157a)
+
+
 ## 🛠️ Tech stack
 
 - **Vite:** A fast build tool for modern web apps.
