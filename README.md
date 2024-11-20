@@ -8,27 +8,21 @@ This project is a Proof of Concept (POC) demonstrating real-time integration usi
 - Ably integration for real-time messaging.
 - Virtualized rendering for large datasets.
 
-
 While currently basic, the project lays the groundwork for future enhancements like multi-channel support, advanced data visualization, and more robust real-time features.
 
 ## 🚀 Features
 
 - **Real-Time Updates:** Uses Ably for instant updates when events are published.
 - **Dynamic Filtering:**
-Includes a search bar to filter data across all fields, with debounce optimization.
+  Includes a search bar to filter data across all fields, with debounce optimization.
 - **Virtualized Rendering:**
-Efficiently handles large datasets for performance.
+  Efficiently handles large datasets for performance.
 - **Tailwind CSS:** Fully styled for a modern and responsive UI.
 - **Ephemeral Data:** Data exists only during the session, making it suitable for demos and POCs.
 
-
-## Demo
-
-
+## 🎥 Demo
 
 https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
-
-
 
 ## 🛠️ Tech stack
 
@@ -38,7 +32,6 @@ https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
 - **Tailwind CSS:** Utility-first CSS framework for styling.
 - **Lodash:** Used for debounced search.
 - **React Virtualization:** Handles efficient rendering of large datasets.
-
 
 ## 🏗️ How It Works
 
@@ -60,7 +53,6 @@ https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
 
 - Renders JSON data interactively for easy inspection.
 
-
 ## How to Run the Project
 
 1. Clone the Repository : https://github.com/DDiscua/React-Ably-POC.git
@@ -69,8 +61,7 @@ https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
 4. npm run dev
 5. http://localhost:5173
 
-
-## 📖  Future Enhancements
+## 📖 Future Enhancements
 
 This demo is a basic implementation that will be improved with features such as:
 
@@ -79,8 +70,7 @@ This demo is a basic implementation that will be improved with features such as:
 - Advanced Filtering: Implement filters for specific fields (e.g., categories or timestamps).
 - Pagination: Handle large datasets with server-side pagination.
 - Improved UI/UX: Introduce charts, animations, and enhanced visualizations.
-- 
-
+-
 
 ## 🌟 Acknowledgments
 
