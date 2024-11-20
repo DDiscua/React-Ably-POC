@@ -37,6 +37,7 @@ Dashboard:
 - **Tailwind CSS:** Utility-first CSS framework for styling.
 - **Lodash:** Used for debounced search.
 - **React Virtualization:** Handles efficient rendering of large datasets.
+- **Flowbite React:** Build modern web applications withFlowbite React
 
 ## 🏗️ How It Works
 
@@ -82,6 +83,7 @@ This demo is a basic implementation that will be improved with features such as:
 
 - https://ably.com/docs
 - https://ably.com/tutorials
+- https://flowbite-react.com/
 
 ## 🌟 Acknowledgments
 
