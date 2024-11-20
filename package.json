@@ -10,13 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.20.5",
+    "@tanstack/react-virtual": "^3.10.9",
+    "@uiw/react-json-view": "^2.0.0-alpha.30",
     "ably": "^2.5.0",
+    "flowbite-react": "^0.10.2",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/react": "^18.3.12",
+    "@types/lodash": "^4",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.20",

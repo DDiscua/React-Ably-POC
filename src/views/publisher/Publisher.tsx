@@ -1,15 +1,12 @@
 import { PublishMessages } from "../../components";
-import { CARD_DATA } from "../../mock";
+import { ABLY_CHANNEL } from "../../config/ably";
 
-export const Publisher = () => {
-  const channelName = "react-ably-poc";
+export const Publisher: React.FC = () => {
+  const channelName = ABLY_CHANNEL;
 
   return (
     <div className="w-full">
-      <PublishMessages
-        channelName={channelName}
-        objectToPublish={CARD_DATA[0]}
-      />
+      <PublishMessages channelName={channelName} />
     </div>
   );
 };

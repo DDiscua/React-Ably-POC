@@ -1,6 +1,5 @@
-import * as Ably from 'ably';
+import * as Ably from "ably";
 import { AblyProvider, ChannelProvider } from "ably/react";
-import { useCustomAbly } from "../../hooks/useCustomAbly";
 
 export interface AblyWrapperProps {
   children: React.ReactNode;
@@ -15,19 +14,7 @@ export const AblyWrapper = ({
 }: AblyWrapperProps) => {
   return (
     <AblyProvider client={client}>
-      <ChannelProvider channelName={channelName}>
-        <ChannelWrapper>{children}</ChannelWrapper>
-      </ChannelProvider>
+      <ChannelProvider channelName={channelName}>{children}</ChannelProvider>
     </AblyProvider>
   );
-};
-
-const ChannelWrapper = ({ children }: { children: React.ReactNode }) => {
-  // Listen to connection state changes
-  const { useConnectionStateListener } = useCustomAbly();
-  useConnectionStateListener((connectionState) => {
-    console.log("Connection state changed:", connectionState);
-  });
-
-  return children;
 };

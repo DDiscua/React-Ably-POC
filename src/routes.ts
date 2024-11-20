@@ -1,6 +1,6 @@
 export const ROUTES = {
   dashboard: {
-    base: "/",
+    base: "/dashboard",
     permissions: [],
   },
   publisher: {

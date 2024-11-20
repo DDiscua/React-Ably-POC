@@ -1,1 +1,1 @@
-export const ABLY_KEY = import.meta.env.VITE.VITE_ABLY_KEY;
+export const ABLY_CHANNEL = "react-ably-poc";

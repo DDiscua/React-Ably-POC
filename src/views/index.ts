@@ -1,2 +1,4 @@
-export { Dashboard } from "./dashboard";
-export { Publisher } from "./publisher";
+export { Dashboard } from "./Dashboard";
+export { Publisher } from "./Publisher";
+export { About } from "./About";
+export { PageNotFound } from "./PageNotFound";

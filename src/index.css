@@ -8,7 +8,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #242424;
   background-color: white;
 
   font-synthesis: none;
@@ -32,4 +32,29 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.no-overflow-anchoring {
+  overflow-anchor: none;
+}
+
+.scrollable-container {
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #9ca3af #e5e7eb; /* Thumb and track colors */
+}
+
+/* For Chrome, Edge, and Safari */
+.scrollable-container::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #9ca3af; /* Thumb color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Track color */
+  border-radius: 8px;
 }

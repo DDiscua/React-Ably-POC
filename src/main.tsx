@@ -5,15 +5,16 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-
+import AppRouter from "./AppRouter";
+import { Flowbite } from "flowbite-react";
 import "./index.css";
-import { AppRouter } from "./AppRouter";
-import App from "./App";
+
 const router = createBrowserRouter(createRoutesFromElements(AppRouter));
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    <App />
+    <Flowbite>
+      <RouterProvider router={router} />
+    </Flowbite>
   </StrictMode>
 );
