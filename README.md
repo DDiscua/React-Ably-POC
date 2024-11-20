@@ -22,8 +22,15 @@ Efficiently handles large datasets for performance.
 - **Ephemeral Data:** Data exists only during the session, making it suitable for demos and POCs.
 
 
+## Demo
 
-## 🛠️ Features
+
+
+https://github.com/user-attachments/assets/0fd1250c-6b16-4b19-b1c3-954a39da4810
+
+
+
+## 🛠️ Tech stack
 
 - **Vite:** A fast build tool for modern web apps.
 - **React:** The library for building the UI.
