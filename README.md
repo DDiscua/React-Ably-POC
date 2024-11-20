@@ -70,7 +70,13 @@ This demo is a basic implementation that will be improved with features such as:
 - Advanced Filtering: Implement filters for specific fields (e.g., categories or timestamps).
 - Pagination: Handle large datasets with server-side pagination.
 - Improved UI/UX: Introduce charts, animations, and enhanced visualizations.
--
+- Add more validations related to rate-limits
+
+
+## 📜 Ref docs
+
+- https://ably.com/docs
+- https://ably.com/tutorials
 
 ## 🌟 Acknowledgments
 
